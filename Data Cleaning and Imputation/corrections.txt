@@ -1,0 +1,5 @@
+# correct negative values
+if (Petal.Width<0||is.na(Petal.Width)){
+Petal.Width <- NA
+}
+# sum(AGE$age<=60, na.rm = TRUE) < 1
