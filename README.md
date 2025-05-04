@@ -14,3 +14,8 @@
 - Shortest Path Computation between nodes (datapoints)
 - R Libraries: dplyr, tibble, network, tidygraph, ggraph, stringr
 ### 5. Geographic Data Analysis and Modelling (Geocomputation)
+- Use of geodata raster object
+- Statistical measure computation (standard variation, mean)
+- Geodata visualisation (Choropleth maps)
+- Reclassification of raster object
+- R Libraries: raster, sf, dplyr, tmap
