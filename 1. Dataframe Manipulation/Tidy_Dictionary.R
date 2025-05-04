@@ -18,22 +18,27 @@ temp <- who %>%
   filter(cases != "")
 temp
 
+# replace all "newrel" strings with "new_rel
 temp$notification <- str_replace(temp$notification, "newrel", "new_rel")      
 temp
 
+# split notification column to individual columns (new, type, sex, age)
 temp <- temp %>% 
   separate(notification, into = c("new", "type", "sex"), sep = "_") %>%
   separate(sex, into = c("sex", "age"), sep = 1)
 temp
 
+# drop columns: new, iso2, iso3
 temp <- subset(temp, select = -c(new, iso2, iso3))
 temp
 
+# compute total TB cases for each country
 ans5 <-temp %>% 
   group_by(country) %>% 
   summarise(count = sum(cases))
 ans5
 
+# view country with the highest amount of TB cases for each year
 ans6 <- filter(temp, type == "sp") %>%
   group_by(year) %>%
   summarise(count = max(cases))
