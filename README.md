@@ -10,5 +10,6 @@
 - R Libraries: dplyr, editrules, deducorrect, VIM
 ### 4. Dataset to Graph
 - Datapoint mapping to undirected Graph
+- Data Graph Visualisation
 - Shortest Path Computation between nodes (datapoints)
 - R Libraries: dplyr, tibble, network, tidygraph, ggraph, stringr
