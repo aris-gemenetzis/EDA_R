@@ -1,3 +1,7 @@
+### 1. Dataframe Manipulation
+- Import Tidy Dataset to Dataframe
+- Process Dataframe for different Views
+- R Libraries: tidyverse
 ### 2. Data Plotting
 - Analysis and Visualisation of Economist Dataset
 - R Libraries: sqldf, dplyr, ggplot2
