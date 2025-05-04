@@ -8,3 +8,4 @@
 - Automated Data Correction (`localizeErrors`)
 - Data Imputation (kNN)
 - R Libraries: dplyr, editrules, deducorrect, VIM
+### 4. Map Data points to Graph
