@@ -13,3 +13,4 @@
 - Data Graph Visualisation
 - Shortest Path Computation between nodes (datapoints)
 - R Libraries: dplyr, tibble, network, tidygraph, ggraph, stringr
+### 5. Geographic Data Analysis and Modelling (Geocomputation)
