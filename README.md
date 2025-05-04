@@ -2,8 +2,9 @@
 - Analysis and Visualisation of Economist Dataset
 - R Libraries: sqldf, dplyr, ggplot2
 ### 3. Data Cleaning and Imputation
-- Manual Data Check
-- Rule-based Data Check
-- Data Correction (`localizeErrors`)
-- Data Imputation (kNN imputation)
+- Manual Data Check on Dirty Iris Dataset
+- Rule-based Data Check (`rules.txt`)
+- Rule-based Data Correction (`correctWithRules`, `orrections.txt`)
+- Automated Data Correction (`localizeErrors`)
+- Data Imputation (kNN)
 - R Libraries: dplyr, editrules, deducorrect, VIM
