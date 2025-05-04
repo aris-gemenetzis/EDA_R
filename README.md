@@ -1,6 +1,6 @@
 ### 1. Dataframe Manipulation
 - Import Tidy Dataset to Dataframe
-- Process Dataframe for different Views
+- Process Dataframe for different Views (gather, separate, group_by, drop)
 - R Libraries: tidyverse
 ### 2. Data Plotting
 - Analysis and Visualisation of Economist Dataset
