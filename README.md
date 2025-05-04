@@ -1,7 +1,7 @@
-### Data Plotting
+### 2. Data Plotting
 - Analysis and Visualisation of Economist Dataset
 - R Libraries: sqldf, dplyr, ggplot2
-### Data Cleaning and Imputation
+### 3. Data Cleaning and Imputation
 - Manual Data Check
 - Rule-based Data Check
 - Data Correction (`localizeErrors`)
